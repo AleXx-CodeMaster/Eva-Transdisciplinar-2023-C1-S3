@@ -128,6 +128,7 @@ El Movimiento Rectilíneo Uniforme Acelerado (MRUA) se puede aplicar en una ampl
 
 
 5.      Programación
+
 a.      Descripción de las herramientas utilizadas
 b.      Guia  de  instalación
 c.      Guia  de  uso  (Hacer  uso  de  imágenes  o  un  video  tutorial  para  su  uso)
