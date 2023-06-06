@@ -18,7 +18,7 @@ Durante el MRUA, se pueden observar las siguientes características:
     
  **Desplazamiento**: Es la variación en la posición del objeto durante un determinado intervalo de tiempo. Se representa con la letra "Δx" o simplemente "x". En el MRUA, el desplazamiento puede ser positivo o negativo, dependiendo de la dirección del movimiento.
 
-En este trabajo vamos a simular un auto que se mueve por una carrera en donde acelera en línea recta, en donde experimenta MRUA con una aceleración constante positiva. En este caso, la velocidad del automóvil aumenta gradualmente, la idea principal es que el usuario pueda ingresarle valores para ir alterando su velocidad y alterar lo que es el desplazamiento, la posición y la aceleración manera gradual, todo esto siguiendo las reglas del Fenómeno Físico Mencionado.
+En este trabajo planeamos simular un auto en el cual su trayectoria sea una aceleración constante en una linea recta, en donde se experimentará el MRUA con una aceleración constante positiva. En este caso, la velocidad del automóvil aumenta gradualmente, la idea principal es que el usuario pueda ingresar valores los cuales iran alterando su velocidad, su desplazamiento, la posición y la aceleración de manera gradual, todo esto siguiendo las reglas del Fenómeno Físico Mencionado.
 
 3.      Evento Físico a simular: MOVIMIENTO RECTILINEO UNIFORME ACELERADO
 
