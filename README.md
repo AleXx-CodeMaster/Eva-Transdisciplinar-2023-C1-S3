@@ -1,7 +1,6 @@
 1.      MRUA-SIMULATOR (Eva-Transdiciplinario-2023-CI-S3)
 2.      Descripción: El movimiento rectilíneo uniforme acelerado (MRUA) es un tipo de movimiento en el que un objeto se desplaza a lo largo de una línea recta con una aceleración constante. En este tipo de movimiento, la velocidad del objeto cambia de manera uniforme a medida que pasa el tiempo.
 
-
 En el **MRUA**, el objeto experimenta una **aceleración constante**, lo que significa que la magnitud de su velocidad cambia de manera uniforme en intervalos de tiempo iguales. La aceleración puede ser **positiva o negativa**, dependiendo de la dirección en la que se aplique.
 
 Durante el MRUA, se pueden observar las siguientes características:
