@@ -9,7 +9,7 @@ Durante el MRUA, se pueden observar las siguientes características:
 
 **Velocidad inicial**: Es la velocidad del objeto en el instante inicial. Se representa con la letra "v₀".
     
-**Aceleración**: Es la tasa de cambio de la velocidad. Se representa con la letra "a". Si la aceleración es positiva, el objeto aumentará su velocidad en el tiempo, mientras que si es negativa, disminuirá su velocidad.
+**Aceleración**: Es la tasa de cambio de la velocidad. Se representa con la letra "a". Si la aceleración es positiva, el objeto aumentará su velocidad en el tiempo, mientras que si es negativa, disminuirá su velocidad. la aceleración misma posee un limite el cual se dicta al momento de ejercer una fuerza sobre un objeto, pero si no existe una fuerza externa que se aplique sobre un objeto este estará en reposo y no tendra cambio en aceleración, ni en velocidad.
     
 **Velocidad**: Es la magnitud de la rapidez con la que el objeto se desplaza. Se representa con la letra "v". En el MRUA, la velocidad cambia de manera constante, incrementándose o disminuyendo según la dirección de la aceleración.
     
