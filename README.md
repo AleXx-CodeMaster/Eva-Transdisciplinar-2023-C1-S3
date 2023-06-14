@@ -134,6 +134,29 @@ El Movimiento Rectilíneo Uniforme Acelerado (MRUA) se puede aplicar en una ampl
 
 a.      Descripción de las herramientas utilizadas
 
+ Lenguaje de programacion usado: "Python"
+ 
+ Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Fue creado por Guido van Rossum y lanzado por primera vez en 1991. A lo largo de los años, Python se ha vuelto muy popular debido a su simplicidad, legibilidad de código y enfoque en la facilidad de uso.
+
+Características clave de Python:
+
+1. Legibilidad de código: Python se destaca por su sintaxis limpia y legible, lo que facilita la lectura y comprensión del código. Utiliza una estructura de indentación significativa en lugar de llaves o palabras clave para definir bloques de código, lo que promueve la escritura de código limpio y estructurado.
+
+2. Fácil de aprender: Python tiene una curva de aprendizaje suave y es considerado un lenguaje ideal para principiantes. Su sintaxis clara y expresiva permite a los programadores concentrarse en la resolución de problemas en lugar de preocuparse por detalles sintácticos complejos.
+
+3. Versatilidad: Python es un lenguaje de propósito general, lo que significa que se puede utilizar en una amplia gama de aplicaciones. Puede ser utilizado para desarrollar aplicaciones web, aplicaciones de escritorio, análisis de datos, inteligencia artificial, scripting, automatización, entre otros.
+
+4. Bibliotecas y frameworks: Python cuenta con una amplia gama de bibliotecas y frameworks que facilitan el desarrollo de diversas aplicaciones. Algunos ejemplos populares son Django y Flask para el desarrollo web, NumPy y Pandas para el análisis de datos, TensorFlow y PyTorch para el aprendizaje automático, y muchas más.
+
+5. Portabilidad: Python es un lenguaje multiplataforma, lo que significa que los programas escritos en Python pueden ejecutarse en diferentes sistemas operativos como Windows, macOS y Linux sin necesidad de realizar modificaciones significativas en el código.
+
+6. Comunidad activa: Python tiene una comunidad de desarrolladores muy activa y comprometida. Esto se traduce en una amplia disponibilidad de recursos, documentación, tutoriales y una gran cantidad de bibliotecas y frameworks desarrollados por la comunidad.
+
+En general, Python se destaca por su enfoque en la legibilidad, simplicidad y productividad. Es ampliamente utilizado en diferentes industrias y áreas, desde desarrollo web y científico hasta inteligencia artificial y automatización, lo que lo convierte en uno de los lenguajes de programación más populares y relevantes en la actualidad.
+
+
+-LIBRERIAS
+
  Tkinter:
    - Tkinter es una biblioteca estándar de Python que se utiliza para crear interfaces gráficas de usuario (GUI, por sus siglas en inglés).
    - Proporciona un conjunto de widgets y herramientas para construir ventanas, botones, etiquetas, campos de entrada, menús y más elementos interactivos en una interfaz gráfica.
@@ -153,8 +176,40 @@ a.      Descripción de las herramientas utilizadas
 
 En resumen, tkinter es una biblioteca para crear interfaces gráficas de usuario en Python, mientras que PIL (o su bifurcación Pillow) es una biblioteca para el procesamiento y manipulación de imágenes en Python. Ambas bibliotecas son muy útiles en diferentes contextos de desarrollo de aplicaciones.
 
+b.      Guia  de  instalación:
 
-b.      Guia  de  instalación
+1. Instalación de Python:
+   - Ve al sitio web oficial de Python en https://www.python.org/downloads/ y descarga la última versión estable de Python.
+   - Ejecuta el archivo de instalación descargado y marca la casilla "Add Python to PATH" durante el proceso de instalación.
+   - Sigue las instrucciones en pantalla y completa la instalación.
+
+2. Verificación de la instalación de Python:
+   - Abre una ventana de comandos (CMD).
+   - Escribe el siguiente comando y presiona Enter:
+     ```
+     python --version
+     ```
+   - Debería mostrarte la versión de Python instalada, lo que confirma que la instalación fue exitosa.
+
+3. Instalación de Tkinter:
+   - Tkinter generalmente ya está incluido en las instalaciones estándar de Python, por lo que no requiere una instalación adicional.
+
+4. Instalación de PIL (Python Imaging Library):
+   - Abre una ventana de comandos (CMD).
+   - Escribe el siguiente comando y presiona Enter:
+     ```
+     pip install pillow
+     ```
+   - Esto instalará la biblioteca PIL a través del paquete Pillow, que es una bifurcación activa y compatible de PIL.
+
+5. Verificación de la instalación de PIL:
+   - Abre el intérprete de Python ejecutando el comando `python` en una ventana de comandos (CMD).
+   - Importa el módulo PIL ejecutando el siguiente comando en el intérprete:
+     ```
+     import PIL
+     ```
+   - Si no aparece ningún error, significa que la instalación de PIL fue exitosa.
+
 c.      Guia  de  uso  (Hacer  uso  de  imágenes  o  un  video  tutorial  para  su  uso)
 d.      Enlace  a  vídeo  con  la  explicación  del  código  desarrollado.
 8.      Conclusiones
