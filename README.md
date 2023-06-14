@@ -8,6 +8,7 @@ Durante el MRUA, se pueden observar las siguientes características:
 **Posición inicial**: Es la posición del objeto en el inicio del movimiento. Se representa usualmente con la letra "x₀".
 
 **Velocidad**: Es la magnitud de la rapidez con la que el objeto se desplaza. Se representa con la letra "V". En el MRUA, la velocidad cambia de manera constante, incrementándose o disminuyendo según la dirección de la aceleración. la velocidad se divide en tres variables las cuales son: 
+
 ** "Vo" **: velocidad inicial del movimiento, esta es en linea recta aplicandose en el MRUA, esta puede ser tanto negativa como positiva puesto que depende de la aceleracion y en si su sentido u orientacion.
 
 ** "Vf" **: velocidad final, este es el resultado luego de experimentar una aceleracion que puede ser negativa o positiva, en pocas palabras es el resultante de la velocidad al sufrir un cambio provocado por una fuerza externa (aceleracion).
