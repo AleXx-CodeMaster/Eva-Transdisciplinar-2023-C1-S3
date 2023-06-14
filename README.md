@@ -133,6 +133,27 @@ El Movimiento Rectilíneo Uniforme Acelerado (MRUA) se puede aplicar en una ampl
 5.      Programación
 
 a.      Descripción de las herramientas utilizadas
+
+ Tkinter:
+   - Tkinter es una biblioteca estándar de Python que se utiliza para crear interfaces gráficas de usuario (GUI, por sus siglas en inglés).
+   - Proporciona un conjunto de widgets y herramientas para construir ventanas, botones, etiquetas, campos de entrada, menús y más elementos interactivos en una interfaz gráfica.
+   - Tkinter se basa en la biblioteca Tcl/Tk, que es una herramienta popular para crear GUIs. Proporciona una capa de interfaz de Python para interactuar con Tcl/Tk.
+   - Con Tkinter, puedes crear aplicaciones de escritorio con una interfaz gráfica intuitiva y visualmente atractiva.
+   - Tkinter se utiliza ampliamente debido a su facilidad de uso y su integración nativa con Python.
+   - Puedes utilizar Tkinter para desarrollar aplicaciones simples o complejas, desde herramientas utilitarias hasta aplicaciones empresariales.
+
+ PIL (Python Imaging Library):
+   - PIL (Python Imaging Library) es una biblioteca de procesamiento de imágenes de código abierto para Python.
+   - Proporciona una amplia gama de funciones y herramientas para abrir, manipular, mejorar y guardar imágenes en varios formatos.
+   - PIL permite realizar operaciones básicas en imágenes, como recortar, redimensionar, rotar, ajustar el brillo y el contraste, cambiar el formato de archivo, entre otras.
+   - También ofrece funcionalidades avanzadas, como el filtrado de imágenes, la composición de imágenes, la manipulación de píxeles y la generación de gráficos simples.
+   - PIL es ampliamente utilizada en aplicaciones que requieren manipulación de imágenes, como procesamiento de imágenes médicas, visión por computadora, generación de gráficos y diseño web.
+   - Sin embargo, ten en cuenta que PIL no se ha actualizado desde 2011. Ha sido reemplazada por Pillow, que es una bifurcación de PIL que proporciona mejoras y mantenimiento continuo. Pillow es compatible con la mayoría 
+    de las funciones de PIL y se recomienda su uso en lugar de PIL.
+
+En resumen, tkinter es una biblioteca para crear interfaces gráficas de usuario en Python, mientras que PIL (o su bifurcación Pillow) es una biblioteca para el procesamiento y manipulación de imágenes en Python. Ambas bibliotecas son muy útiles en diferentes contextos de desarrollo de aplicaciones.
+
+
 b.      Guia  de  instalación
 c.      Guia  de  uso  (Hacer  uso  de  imágenes  o  un  video  tutorial  para  su  uso)
 d.      Enlace  a  vídeo  con  la  explicación  del  código  desarrollado.
