@@ -12,8 +12,8 @@ from PIL import Image, ImageTk
 #---------------------------------------------------------------------
 #Se obtienen los valores de las entradas de texto y se convierten a tipo float
 #---------------------------------------------------------------------
-
-def calcular_resultados():
+# editado zona de calculos por claudio. 
+def calcular_resultados(): 
     distancia = float(distancia_entry.get()) #devuelve el texto ingresado por el usuario en esa entrada. en tipo Float = Decimal
     velocidad_final = float(velocidad_final_entry.get())
     velocidad_inicial = float(velocidad_inicial_entry.get())
@@ -129,7 +129,7 @@ def reiniciar_simulacion():
 #---------------------------------------------------------------------
 # Crea la ventana de Simulacion 
 #---------------------------------------------------------------------
-
+#resolucion e imagenes por: Sebastian.
 root = tk.Tk()
 root.title("Simulación de Auto y Cálculo de MRUA")
 root.geometry("1200x850")
