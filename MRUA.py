@@ -185,9 +185,14 @@ posicion_label.pack()
 velocidad_label_simulacion = tk.Label(root, text="Velocidad: ", bg="#F0F0F0")
 velocidad_label_simulacion.pack()
 
+#----------------------------------------------------------------------------
+#Configuracion de Ingreso de texto y Resultados con sus respectivas formulas 
+#----------------------------------------------------------------------------
+
 # MARCO
 calculo_frame = tk.Frame(root, bg="#F0F0F0")
-calculo_frame.pack(pady=10)
+calculo_frame.pack(pady=10) #se utiliza para colocar el marco dentro de la ventana principal. El argumento pady=10 establece un espacio de relleno de 10 píxeles en la dirección vertical (arriba y abajo) alrededor del marco.
+
 
 # DISTANCIA
 distancia_label = tk.Label(calculo_frame, text="Distancia a Recorrer (m):", bg="#F0F0F0")
