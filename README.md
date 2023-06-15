@@ -210,7 +210,5 @@ b.      Guia  de  instalación:
      ```
    - Si no aparece ningún error, significa que la instalación de PIL fue exitosa.
 
-c.      Guia  de  uso  (Hacer  uso  de  imágenes  o  un  video  tutorial  para  su  uso)
-d.      Enlace  a  vídeo  con  la  explicación  del  código  desarrollado.
-8.      Conclusiones
-
+Video del proyecto final 
+link: https://drive.google.com/file/d/1_o-x6SvExeZy-RurAGac4mDtvSoB1lwq/view?usp=drive_link
