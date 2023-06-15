@@ -1,0 +1,114 @@
+Nombre Proyecto: MRUA simulator
+Seccion: Seccion 3 programacion y fisica
+Nombres: Alexis Monsalve; Sebastian Salamanca; Bryan Peña; Claudio Gonzalez 
+
+Despricion: Buenas tardes docentes y compañeros, el tema a exponer que se nos ha asignado es el MRUA (movimiento rectilineo uniforme acelerado), en palabras simples
+es el movimiento en linea recta con una aceleracion constante. en palabras mas detalladas el MRUA es un movimiento recto con una aceleracion constante que consta de
+multiples factores los cuales son "distancia","tiempo","aceleracion","velocidad", estas 4 son practicamente las variables bases para calcular el MRUA pero estas 
+mismas se dividen en mas terminos, esto sucede cuando hay una o mas incognitas, como por ejemplo "velocidad" que tiene Vf (Velocidad final), Vo(Velocidad inicial) 
+y Vf^2 (velocidad final al cuadrado), Xi(posicion inicial),Xf(posicion final). todo lo anteriormente mencionado son las bases de nuestro proyecto el cual busca
+simular como funciona el MRUA utilizando las formulas que sean necesarias en el proceso, con todo ya brevemente explicado procederemos a explicar el codigo de manera
+mas detallada y precisa para tener un mejor entendimiento sobre este moviento el cual se utiliza en varios campos de la fisica como por ejemplo: la navegacion y la
+astronautica.
+
+1#
+Para la correcta funcionalidad del codigo se debera utilizar las siguientes 2 librerias. La libreria Tkinter el cual proporciona una interfaz para crear aplicaciones 
+gráficas, tales como la ventana que se muestrorara a continuacion (imagen del codigo) la cual fue creada con el proposito de que sea mas interactivo con el usuario y
+sea mas amigable a la vista al momento de ingresar los datos. La segunda libreria es PIL (pillow) la cual es una biblioteca que procesa imagenes en python, de esta misma 
+sacaremos modulos llamados Image y ImageTK, Image se utilizara con el proposito de abrir y modificar imagenes mientras que ImageTK va de la mano con Tkinter la cual 
+proporciona la imagen en la interfaz(una flecha señalando el mapa de fondo). En resumen estas librerias permiten cargar y mostrar imagenes en una ventana interactiva.
+
+ya teniendo la ventana de usuario se requiere el ingreso de datos para los calculos de MRUA, en primera instancia se crea una funcion llamada calcular_resultados que
+nos sirve para obtener los valores ingresados por el usuario, luego utilizaremos un entry.get para la distancia,velocidad final,V inicial, tiempo y aceleracion, el 
+paso siguiente es convertir los valores obtenidos a numeros flotantes puesto que el calculo muchas veces nos dara decimal y para esto utilizaremos la funcion "float()"
+la cual nos ayuda a tener un resultado con decimales, como por ejemplo esta linea de codigo "velocidad_inicial = float(velocidad_inicial_entry.get()" la cual crea una
+variable que si o si se vera forzada a mostrar minimo un decimal (siendo entero nos entrega un 0) debido a que se fuerza el float.
+Después de obtener y convertir los valores, se utilizaran para realizar cálculos adicionales o bien calculos necesarios para determinar una variable y actualizar los 
+resultados en nuestra interfaz gráfica para que sean visibles por pantalla.
+
+2#
+Lo siguiente es utilizar las formulas del MRUA que sean necesarias segun la incognita presente para asi obtener los calculos los mas precisos posibles, en resumen el 
+bloque de esta parte del código define nuestra funcion llamada calcular_resultados() que realizara los cálculos basados en los valores obtenidos de las entradas de 
+datos en la interfaz gráfica. Los cálculos incluyen la distancia recorrida, la aceleración final, el cambio de velocidad, la distancia sin velocidad final, el tiempo 
+final y la velocidad final al cuadrado.
+
+3#
+En esta parte del codigo, es el apartado donde se ingresaran los datos que se le soliciten al usuario, que como se muestra en la imagen(interfaz) cada 
+recuadro contara con su respectivo nombre y respectiva ecuacion del MRUA, para asi tener los datos lo mas ordenado posible.
+
+4#
+Para esta parte utilizaremos variables globales ya que al ser las mismas hemos de ocuparlas en gran parte del codigo y estas son posicion, velocidad y aceleracion. 
+esto es netamente para almacenar y actualizar la información del automóvil. Seguido de eso calculamos la posicion y velocidad, las cuales utilizaremos formulas del 
+movimiento rectilineo uniforme acelerado para calcular la nueva posición y velocidad del automóvil en función de la posición, velocidad y aceleración anteriores, tambien
+calculara su intervalo de tiempo "delta_tiempo".
+
+Despues utilizaremos lienzos cuyo proposito principal es que comprueba si la posición del automóvil está fuera del rango del lienzo y si es asi, ajusta la posición y
+la velocidad para mantenerlo dentro de los límites.
+Para el calculo del desplazamiento del fondo, calcula si el desplazamiento del fondo sea concorde a la velocidad del auto, en lo general hace que el fondo se mueva en
+direccion opuesta al auto, asi creando un efecto visual de que el auto toma velocidad. Para calcular su desplazamiento en el fondo, calculamos el desplazamiento del 
+fondo en función de la velocidad actual del automóvil y el intervalo de tiempo "delta_tiempo" y esto hace que el desplazamiento se utiliza para mover el fondo del 
+lienzo en la dirección opuesta al movimiento del automóvil. 
+
+Luego verificamos si hay un reinicio en nuestro fondo si alcanza su límite izquierdo (-1400 en este caso) , si es así reinicia su posición a (0, 0) para que el fondo 
+se repita y parezca un movimiento continuo.
+
+Para ajustar la posicion del fondo en el lienzo según el desplazamiento calculado y al actualizar la posición del auto en el lienzo, se utiliza la función "canvas.move".
+
+Actualización de la interfaz gráfica: Actualiza los valores de posición y velocidad en la interfaz gráfica mediante la configuración del texto de las etiquetas 
+correspondientes.
+
+Continuación del movimiento: Verifica si la posición actual del automóvil es menor que la distancia objetivo establecida. Si es así, programa una llamada 
+posterior a la función "mover_auto" después de un intervalo de tiempo de 20 ms para continuar el movimiento del automóvil.}
+
+En resumen, esta función realiza todos los cálculos necesarios para simular el movimiento del automóvil en el lienzo
+
+5#
+el boton "iniciar_movimiento" se encarga de iniciar el movimiento del automóvil en la simulación
+dandole variables globales, aceleracion y distania_objetivo para almacenar la aceleración y la distancia del auto
+
+Obtención de valores de entrada: Lee los valores de aceleración y distancia objetivo ingresados por el usuario desde la interfaz gráfica. Estos valores se obtienen a partir de los widgets "aceleracion_entry" y "distancia_entry".
+
+Conversión de tipos de datos: Convierte los valores de aceleración y distancia objetivo obtenidos como cadenas de texto a tipo de dato float, para poder utilizarlos en los cálculos.
+
+Llamada a la función "mover_auto": Llama a la función "mover_auto" para comenzar el movimiento del automóvil en la simulación.
+
+En resume: En resumen, esta función configura los parámetros iniciales necesarios para el movimiento del automóvil, obteniendo los valores de aceleración y distancia objetivo ingresados por el 
+usuario, y luego inicia el movimiento llamando a la función "mover_auto".
+
+6#
+Descripcion seccion por seccion Función "reiniciar_simulacion": Esta función reinicia los valores de posición, velocidad y aceleración del automóvil en la simulación, así como también 
+restablece la posición del automóvil en el lienzo y las etiquetas de posición y velocidad en la interfaz.
+
+Creación de la ventana: Se crea una ventana principal para la simulación del automóvil y el cálculo de MRUA. Se establece el título de la ventana, el tamaño y el color de fondo.
+
+Carga de imágenes: Se cargan las imágenes del automóvil y del fondo que se utilizarán en la simulación. Las imágenes se redimensionan para ajustarse al tamaño deseado.
+
+Creación del lienzo: Se crea un lienzo utilizando el widget Canvas de tkinter. Se establece el tamaño del lienzo y se muestra la imagen de fondo en el lienzo.
+
+Creación de botones: Se crea un marco para contener los botones relacionados con la simulación. En este caso, se crea un botón "Iniciar" que llama a la función "iniciar_movimiento" 
+cuando se presiona, para comenzar el movimiento del automóvil.
+
+Etiquetas y campos de entrada: Se crean etiquetas y campos de entrada para ingresar los valores necesarios para el cálculo de MRUA, como la distancia a recorrer, velocidad inicial, 
+velocidad final, tiempo y aceleración. Estos widgets se organizan en un marco llamado "calculo_frame".
+
+Botón "Reiniciar": Se crea un botón "Reiniciar" que llama a la función "reiniciar_simulacion" cuando se presiona, para restablecer la simulación y los valores en la interfaz.
+
+Botón "Calcular": Se crea un botón "Calcular" que llama a la función "calcular_resultados" cuando se presiona, para realizar los cálculos del MRUA y actualizar los resultados en la interfaz.
+
+Creación de marco para resultados: Se crea un marco para mostrar los resultados del cálculo de MRUA. Este marco contiene etiquetas para mostrar la distancia recorrida, aceleración final, 
+velocidad cambio, distancia sin velocidad final, tiempo final y velocidad final al cuadrado.
+
+En resumen, este bloque de código define una interfaz gráfica que permite simular el movimiento de un automóvil bajo un MRUA (Movimiento Rectilíneo Uniformemente Acelerado) y realizar 
+cálculos relacionados con el MRUA utilizando los valores ingresados por el usuario.
+
+FINAL#
+VARIABLES DE SIMULACION:
+
+posicion: Almacena la posición actual del automóvil en la simulación.
+velocidad: Almacena la velocidad actual del automóvil en la simulación.
+aceleracion: Almacena la aceleración actual del automóvil en la simulación.
+distancia_objetivo: Almacena la distancia objetivo que el automóvil debe alcanzar en la simulación.
+delta_tiempo: Es el incremento de tiempo utilizado en cada iteración de movimiento del automóvil. Es una cantidad de tiempo pequeña que se usa para calcular la nueva posición y 
+velocidad en cada paso de la simulación.
+root.mainloop(): Este método inicia el bucle principal de la interfaz gráfica. Es la parte del código que se encarga de mostrar y actualizar la interfaz, respondiendo a eventos y 
+permitiendo la interacción con el usuario. Este bucle se mantiene en ejecución hasta que se cierre la ventana de la interfaz o se detenga de alguna otra manera.
