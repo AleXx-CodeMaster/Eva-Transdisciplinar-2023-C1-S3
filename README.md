@@ -211,4 +211,4 @@ b.      Guia  de  instalación:
    - Si no aparece ningún error, significa que la instalación de PIL fue exitosa.
 
 Video del proyecto final 
-link: https://drive.google.com/file/d/1_o-x6SvExeZy-RurAGac4mDtvSoB1lwq/view?usp=drive_link
+link(ahora publico): https://drive.google.com/file/d/1_o-x6SvExeZy-RurAGac4mDtvSoB1lwq/view?usp=sharing
