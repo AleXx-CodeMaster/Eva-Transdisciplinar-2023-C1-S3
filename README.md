@@ -1,4 +1,6 @@
 1.      MRUA-SIMULATOR (Eva-Transdiciplinario-2023-CI-S3)
+Introduccion: como trabajo se nos ha asignado MRUA (movimiento rectilineo uniforme acelerado) y a lo largo de este resumen se vera todo lo relacionado a este tema con explicaciones a detalle desde que formulas se utilizan hasta que instalar para el correcto uso de la simulacion que daremos a conocer.
+
 Descripción: El movimiento rectilíneo uniforme acelerado (MRUA) es un tipo de movimiento en el que un objeto se desplaza a lo largo de una línea recta con una aceleración constante. En este tipo de movimiento, la velocidad del objeto cambia de manera uniforme a medida que pasa el tiempo.
 
 En el **MRUA**, el objeto experimenta una **aceleración constante**, lo que significa que la magnitud de su velocidad cambia de manera uniforme en intervalos de tiempo iguales. La aceleración puede ser **positiva o negativa**, dependiendo de la dirección en la que se aplique.
@@ -210,7 +212,9 @@ b.      Guia  de  instalación:
      ```
    - Si no aparece ningún error, significa que la instalación de PIL fue exitosa.
 
-c.      Guia  de  uso  (Hacer  uso  de  imágenes  o  un  video  tutorial  para  su  uso)
-d.      Enlace  a  vídeo  con  la  explicación  del  código  desarrollado.
-8.      Conclusiones
+Video del proyecto final 
+link(ahora publico): https://drive.google.com/file/d/1_o-x6SvExeZy-RurAGac4mDtvSoB1lwq/view?usp=sharing
 
+Conclusion: debido a que esto es un trabajo en conjunto averiguamos como trabajar en equipo de tal manera que nos ayudo a reconocer nuestros pros y contras,
+de tal modo  que aprendimos a apoyarnos entre si para asi crear de manera efectiva una simulacion la cual calcula todas las variables de MRUA, en este proceso tambien aprendimos a programar de una manera distinta buscando nuevas soluciones para implementar la fisica en la programacion y que sea mas agradable a la vista para usuarios que requieran adentrarse a este tema tan interesante como es la fisica y la programacion, gracias a esto mismo nos ha ayudado a comprender cuales son las necesidades al momento de crear un programa, ver por la gente que desconoce del tema como bien sea agradable para conocedores de esto mismo.
+en conclusion este trabajo fue tanto agobiante como gratificante debido a que fue un reto para nuestro grupo, aun asi nos llevamos un grato aprendizaje de este tema puesto que nos ayudara a pensar tanto en equipo como individualmente aportando ideas y soluciones a temas que se nos presenten en un futuro de manera que podamos adaptarnos a trabajar en equipo para asi ser un aporte y tener pensamiento critico.
