@@ -213,7 +213,7 @@ b.      Guia  de  instalación:
    - Si no aparece ningún error, significa que la instalación de PIL fue exitosa.
 
 Video del proyecto final 
-link(ahora publico): https://drive.google.com/file/d/1_o-x6SvExeZy-RurAGac4mDtvSoB1lwq/view?usp=sharing
+link(ahora publico): https://drive.google.com/file/d/1bjugnveqk8fy0i_oUYpkh-EnRqqudTTf/view
 
 Conclusion: debido a que esto es un trabajo en conjunto averiguamos como trabajar en equipo de tal manera que nos ayudo a reconocer nuestros pros y contras,
 de tal modo  que aprendimos a apoyarnos entre si para asi crear de manera efectiva una simulacion la cual calcula todas las variables de MRUA, en este proceso tambien aprendimos a programar de una manera distinta buscando nuevas soluciones para implementar la fisica en la programacion y que sea mas agradable a la vista para usuarios que requieran adentrarse a este tema tan interesante como es la fisica y la programacion, gracias a esto mismo nos ha ayudado a comprender cuales son las necesidades al momento de crear un programa, ver por la gente que desconoce del tema como bien sea agradable para conocedores de esto mismo.
